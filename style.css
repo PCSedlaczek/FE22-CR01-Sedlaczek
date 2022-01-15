@@ -1,0 +1,214 @@
+
+body {
+  width: 1600px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Header */
+
+header {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 1;
+}
+
+#hero {
+  width: 1600px;
+  position: absolute;
+  top: -584px;
+}
+
+#logo-top {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  width: 200px;
+}
+
+form[name="top"] {
+  position: relative;
+  top:10px;
+  left: 354px;
+  z-index:1;
+}
+
+form[name="top"] input[type="text"] {
+  width: 940px;
+  height: 40px;
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 12px;
+  border: 0;
+  font-size: 1em;
+}
+
+form[name="top"] input[type="button"] {
+  background-color: #8C181B;
+  color: white;
+  width: 95px;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  margin-left: 33px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+header div {
+  position: absolute;
+  left: 320px;
+  top: 290px;
+  margin: 0;
+  padding: 0;
+}
+
+header div h1 {
+  margin: 0px;
+  margin-bottom: 11px;
+  font-size: 2.5em;
+}
+
+header div p {
+  font-weight: bold;
+  font-size: 1.25em;
+  margin: 0;
+}
+
+#devices {
+  position: relative;
+  top: -5px;
+  width: 130px;
+  height: 85px;
+}
+
+/* Main */
+
+main {
+  width: 1440px;
+  background-color: #1A1818;
+  position:relative;
+  top: 370px;
+  height: 480px;
+  text-align: center;
+  display: block;
+  padding-left: 160px;
+  margin: 0;
+}
+
+main h1 {
+  text-align: center;
+  text-shadow: 3px 3px 2px #969595;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  margin: 0;
+  margin-left: -160px;
+  font-size: 3.75em;
+}
+
+section {
+  position: relative;
+  background-color: #235A8D;
+  border-radius: 15px;
+  display: block;
+  float: left;
+  width: 384px;
+  height: 235px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding:0;
+}
+
+section h2 {
+  font-size: 1.9em;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+section hr {
+  width: 310px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+}
+
+section ul {
+  list-style-type: none;
+  font-size: 1.25em;
+  padding: 0;
+  margin: 0;
+}
+
+/* Bonus: Card Buttons */
+
+section button {
+  position: absolute;
+  bottom: 17px;
+  left: 120px;
+  padding: 8px;
+  font-size: 1em;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  top: 390px;
+  padding: 0px;
+  width: 1600px;
+}
+
+#logo-bottom {
+  width: 188px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 1.05em;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+#copy {
+  font-size: 1.25em;
+}
+
+
+/* Bonus: Navbar */
+
+nav {
+  width: 80%;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+}
+
+nav li {
+  list-style-type: none;
+  display: inline;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
