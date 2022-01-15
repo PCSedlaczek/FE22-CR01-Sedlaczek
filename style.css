@@ -84,7 +84,7 @@ header div p {
 
 #devices {
   position: relative;
-  top: -5px;
+  top: -4px;
   width: 130px;
   height: 85px;
 }
@@ -188,25 +188,30 @@ footer p {
 /* Bonus: Navbar */
 
 nav {
-  width: 80%;
+  display: block;
+  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+nav a {
+  color: #950A0A;
 }
 
 nav ul {
   padding: 0px;
   margin: 0;
-  width: 100%;
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 nav li {
   list-style-type: none;
   display: inline;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: 20%;
-  float: left;
+  margin: 20px;
   text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 nav a {
